@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> JVT Profolio</title>
+	<!--Custom styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<img class="title-logo img-fluid float-left" src="images/200pi.png" alt="JVT Designs Logo">
+			</div>
+			<div class="col-md-6 col-sm-12 text-right text-uppercase" id="name">
+				<h1>Jessica Soto</h1>
+				<h2><small>Front-End Ninja</small></h2>
+			</div>
+		</div>
+	</div>
+</header>
+<main>
+	<article>
+		<div class="container-fluid">
+			<hr>
+			<div class="row">
+				<div class="col-md-12 background-img">
+				</div>
+			</div>
+			<div class="row" id="featuredHeading">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center" id="featuredWork">
+				<div class="col-lg-3 col-md-6">
+					<img src="images/work/MIM.png" class="img-fluid" Alt="Mommy in Milwaukee Blog" data-toggle="modal" data-target="#project1">
+					<h4 class="titleWork">Mommy in Milwaukee</h4>
+					<p>Custom Responsive Blog Design for blogger Keila Leist.</p>
+					<p><small>Blog is no longer active.</small></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<img src="images/work/Estradacleaning.png" class="img-fluid" alt="Estrada Cleaning LLC" data-toggle="modal" data-target="#project2">
+					<h4 class="titleWork">Estrada Cleaning LLC</h4>
+					<p>Custom Responsive Website Design for a cleaning company.</p>
+					<p class="linkWork"><a href="www.estradacleaningllc.com">www.estradacleaningllc.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<img src="images/work/PCE.png" class="img-fluid" alt="The Purpose Church Espanol" data-toggle="modal" data-target="#project3">
+					<h4 class="titleWork">The Purpose Church Espanol</h4>
+					<p>Custom Website Design for a church.</p>
+					<p class="linkWork"><a href="www.thepurposechurchespanol.com">www.thepurposechurchespanol.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<img src="images/work/IAN.png" class="img-fluid" alt="Iglesia Aceite Nuevo" data-toggle="modal" data-target="#project4">
+					<h4 class="titleWork">Iglesia Aceite Nuevo</h4>
+					<p>Custom Responsive Website Design for a church.</p>
+					<p><small>Now The Purpose Church Espanol.</small></p>
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- Modal -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/work/MIM.png" class="img-fluid" alt="Mommy in Milwaukee Blog">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/work/Estradacleaning.png" class="img-fluid" alt="Estrada Cleaning LLC">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/work/PCE.png" class="img-fluid" alt="The Purpose Church Espanol">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="images/work/IAN.png" class="img-fluid" alt="Iglesia Aceite Nuevo">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="text-center">©Copyright 2018 by JVT Designs & Studios. All rights reversed.</p>
+			</div>
+		</div>
+ 	</div>
+</footer>
+<!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!--Popper.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!--Bootstrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Font Awesome-->
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script> 
+<script src="js/custom.js"></script>
+</body>	
+</html>
